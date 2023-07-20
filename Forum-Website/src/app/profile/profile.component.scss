@@ -1,0 +1,23 @@
+.page{
+    height: 80vh;
+    background-color: #4c4c4c;
+    text-align: center;
+    align-items: center;
+    gap: 25px;
+    .prof-pic{
+        height: 150px;
+        width: 150px;
+        margin: auto;
+        border-radius: 100px;
+        background-color: purple;
+    }
+    button{
+        height: 40px;
+        width: 200px;
+        margin-top: 10px;
+        background-color: red;
+        border: hidden;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

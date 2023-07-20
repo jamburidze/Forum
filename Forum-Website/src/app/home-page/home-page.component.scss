@@ -1,0 +1,17 @@
+.page{
+    background-color: #4c4c4c;
+    display: grid;
+    width: 100%;
+    height: max-content;
+    gap: 20px;
+    .content{
+        border: 2px solid black;
+        width: 80vw;
+        margin: auto;
+        height: 10vh;
+        overflow: hidden;
+        cursor: pointer;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

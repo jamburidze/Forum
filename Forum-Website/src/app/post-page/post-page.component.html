@@ -1,0 +1,15 @@
+<div class="page">
+    <div class="post">
+        <h1>title</h1>
+        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui at, saepe itaque aspernatur ipsam blanditiis earum! Reprehenderit autem itaque, ipsa quae cum numquam, voluptate nihil tempore repudiandae, voluptas asperiores animi!</h3>
+    </div>
+    <h3 class="comments-label">Comments:</h3>
+    <div class="comments">
+        <div class="comment"  *ngFor="let comment of commentsArray">
+            <p class="user">{{comment.email}}</p>
+            <p>{{comment.body}}</p>
+        </div>
+        <textarea class="your-comment" placeholder="Leave a Comment..." max-cols="30" rows="10"></textarea>
+        <button (click)="submit()">Submit</button>
+    </div>
+</div>

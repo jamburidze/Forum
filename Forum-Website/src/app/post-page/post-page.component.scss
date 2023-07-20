@@ -1,0 +1,54 @@
+.page{
+    background-color: #4c4c4c;
+    display: grid;
+    gap: 20px;
+    .post{
+        border: 2px solid green;
+        width: 70%;
+        margin: auto;
+        gap: 20px;
+    }
+    .comments-label{
+        margin-left: 15vw;
+        display: flex;
+        position: relative;
+        top: 20px;
+    }
+    .comments{
+        width: 70%;
+        margin: auto;
+        .comment{
+            border: 1px solid black;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            .user{
+                text-decoration: underline;
+                font-weight: bolder;
+                font-size: large;
+            }
+        }
+    }
+        .your-comment{
+            background-color: #373737;
+            border-color: gold;
+            width: 550px;
+            height: 150px;
+            max-width: 550px;
+            max-height: 150px;
+            min-width: 550px;
+            min-height: 150px;
+            margin-left: 15vw;
+        }
+        button{
+            display: block;
+            width: 150px;
+            height: 40px;
+            margin-left: 29vw;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: orange;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+}

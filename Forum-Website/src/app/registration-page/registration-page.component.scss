@@ -1,0 +1,32 @@
+.page{
+    height: 80vh;
+    background-color: #4c4c4c;
+    display: flex;
+    align-items: center;
+    form{
+        display: grid;
+        width: 30vw;
+        height: 25vh;
+        gap: 15px;
+        margin: auto;
+        background-color: #353535;
+        border-radius: 5px;
+        align-items: center;
+        input{
+            height: 40px;
+            border-radius: 5px;
+            width: 25vw;
+            margin: auto;
+            background-color: #222222;
+        }
+        button{
+            height: 40px;
+            border-radius: 5px;
+            width: 25vw;
+            margin: auto;
+            background-color: #222222;
+            cursor: pointer;
+            border-color: green;
+        }
+    }
+}
